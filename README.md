@@ -66,7 +66,7 @@ GLOBAL OPTIONS:
 
 ```bash
  ./main info
-{"HostInfo":{"hostname":"wq-sec-haifeng01.bj","uptime":102930,"bootTime":1537410991,"procs":196,"os":"linux","platform":"centos","platformFamily":"rhel","platformVersion":"6.3","kernelVersion":"2.6.32-220.23.2.mi6.el6.x86_64","virtualizationSystem":"","virtualizationRole":"","hostid":"b5d52e45-48ee-4730-98c3-5d8b2f2de48b"},"InterfaceInfo":[{"mtu":16436,"name":"lo","hardwareaddr":"","flags":["up","loopback"],"addrs":[{"addr":"127.0.0.1/8"}]},{"mtu":1500,"name":"eth0","hardwareaddr":"fa:16:3e:75:12:f5","flags":["up","broadcast","multicast"],"addrs":[{"addr":"10.38.164.236/24"}]}]} <nil>
+{"HostInfo":{"hostname":"xxxxx","uptime":102930,"bootTime":1537410991,"procs":196,"os":"linux","platform":"centos","platformFamily":"rhel","platformVersion":"6.3","kernelVersion":"2.6.32-220.23.2.mi6.el6.x86_64","virtualizationSystem":"","virtualizationRole":"","hostid":"b5d52e45-48ee-4730-98c3-5d8b2f2de48b"},"InterfaceInfo":[{"mtu":16436,"name":"lo","hardwareaddr":"","flags":["up","loopback"],"addrs":[{"addr":"127.0.0.1/8"}]},{"mtu":1500,"name":"eth0","hardwareaddr":"fa:16:3e:75:12:f5","flags":["up","broadcast","multicast"],"addrs":[{"addr":"10.10.10.10/24"}]}]} <nil>
 ```
 
 - 查看进程
