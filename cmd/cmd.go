@@ -124,7 +124,7 @@ var Shell = cli.Command{
 	Name:        "shell",
 	Usage:       "Interactive shell",
 	Description: "Interactive shell",
-	Action:      "",
+	Action:      util.Shell,
 }
 
 func stringFlag(name, value, usage string) cli.StringFlag {

@@ -49,7 +49,7 @@ func main() {
 	app.Version = "20180921"
 	app.Usage = "Cross platform security detection tool"
 	app.Commands = []cli.Command{cmd.Info, cmd.Init, cmd.Ps, cmd.Connections, cmd.Tree, cmd.Login, cmd.Auto,
-		cmd.Crontab, cmd.Scan, cmd.Dump, cmd.Web}
+		cmd.Crontab, cmd.Scan, cmd.Dump, cmd.Web, cmd.Shell,}
 	app.Flags = append(app.Flags, cmd.Init.Flags...)
 	app.Flags = append(app.Flags, cmd.Scan.Flags...)
 	app.Flags = append(app.Flags, cmd.Web.Flags...)
